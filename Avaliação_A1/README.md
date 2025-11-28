@@ -1,14 +1,95 @@
-Verificador de idade:
-Este é um script Python simples que verifica a idade de um usuário e determina se ele pode entrar em um local, seguindo algumas regras básicas de faixa etária.
+1️. Verificação de Idade
 
-Estrutura de repetição FOR:
-Este é um script Python extremamente simples que demonstra o uso do laço de repetição (for) para iterar e imprimir números pares dentro de um intervalo específico.
+Descrição
 
-Estrutura de repetição WHILE:
-Este script Python utiliza um laço de repetição while para iterar e imprimir todos os números pares, começando em 0 e terminando em 100.
+O programa solicita a idade do usuário e informa se ele pode entrar em um evento, se só entra acompanhado ou se está proibido.
 
-Lista:
-Este script Python demonstra como coletar entradas de texto do usuário e armazená-las em uma lista (list) para posterior exibição. O objetivo é criar e preencher uma lista de nomes de alunos.
+Como executar
+python verificar_idade.py
 
-Dicionário:
-Este script Python demonstra como coletar o nome e o preço de dois produtos e armazená-los em um dicionário, garantindo que o preço seja tratado como um número (ponto flutuante) e lidando com possíveis erros de entrada do usuário.
+Exemplos
+
+Entrada:
+
+digite sua idade: 20
+
+
+Saída:
+
+Você é maior de idade. Pode entrar!
+
+
+2️. Contador de Números Pares com FOR
+
+Descrição
+
+Imprime todos os números pares de 0 a 100 usando um laço for.
+
+Como executar
+python contador_for.py
+
+Saída esperada
+0
+2
+4
+...
+98
+
+
+3️. Contador de Números Pares com WHILE
+
+Descrição
+
+Imprime números pares de 0 a 100 usando um laço while.
+
+Como executar
+python contador_while.py
+
+Saída esperada
+0
+2
+4
+...
+100
+
+
+4️. Cadastro de Produtos em Dicionário
+
+Descrição
+
+O programa cadastra dois produtos, pedindo nome e preço, e armazena tudo em um dicionário.
+Tratamento de erro incluso para preços inválidos.
+
+Como executar
+python cadastro_produtos.py
+
+Exemplo de entrada
+Digite o nome do primeiro produto: Arroz
+Digite o PREÇO de 'Arroz': R$ 12.50
+
+Digite o nome do segundo produto: Feijão
+Digite o PREÇO de 'Feijão': R$ 8.90
+
+Exemplo de saída
+Cadastro Finalizado.
+--- Dicionário de Produtos ---
+{'Arroz': 12.5, 'Feijão': 8.9}
+
+
+5️. Cadastro de Alunos em Lista
+
+Descrição
+
+Recebe três nomes de alunos e os adiciona em uma lista, exibindo tudo ao final.
+
+Como executar
+python cadastro_alunos.py
+
+Exemplo de entrada
+Digite o nome do primeiro aluno: João
+Digite o nome do segundo aluno: Ana
+Digite o nome do terceiro aluno: Carlos
+
+Exemplo de saída
+--- Alunos na Lista ---
+['João', 'Ana', 'Carlos']
