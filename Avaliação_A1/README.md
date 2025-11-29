@@ -3,6 +3,7 @@
 Descrição
 
 O programa solicita a idade do usuário e informa se ele pode entrar em um evento, se só entra acompanhado ou se está proibido.
+isso resolve varios problemas, como em cinemas, q certos filmes podem ser vistos apenas por maiores de 18 anos, mas tbm podem acompanhados.
 
 Como executar
 python verificar_idade.py
